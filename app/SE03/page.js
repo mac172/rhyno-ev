@@ -61,7 +61,7 @@ export default function SE23Max() {
             <TextGenerateEffect words={word} />
 
             <motion.div>
-                <div className="overflow-x-hidden border rounded-lg p-16 m-16 sm:p-10">
+                <div className="overflow-x-hidden sm:overflow-x-auto border rounded-lg p-16 m-16 sm:p-10">
                     <table className="table">
                         <thead>
                             <tr>
