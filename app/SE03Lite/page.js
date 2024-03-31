@@ -59,8 +59,10 @@ export default function SE23Max() {
             <h1 className="text-center text-6xl p-6">Rhyno SE03LITE</h1>
             <TextGenerateEffect words={word} />
 
-            <motion.div>
-                <div className="overflow-x-hidden border rounded-lg p-16 m-16 sm:p-10">
+            <motion.div
+                className="w-screen"
+            >
+                <div className="overflow-x-auto border rounded-lg p-6 m-8 sm:p-10 ">
                     <table className="table">
                         <thead>
                             <tr>

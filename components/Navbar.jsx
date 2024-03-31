@@ -29,7 +29,7 @@ export default function Nav() {
                             </ul>
                             </details>
                         </li>
-                        <li><a href="#">Pre-book Now</a></li>
+                        <li><a href="/prebook">Pre-book Now</a></li>
                         <ul className="flex">
                         <li><a href="#"><FaInstagram width={10} height={20} size={30}/></a></li>
                         <li><a href="#"><FaLinkedinIn width={10} height={20} size={30}/></a></li>
@@ -60,7 +60,7 @@ export default function Nav() {
                             </ul>
                             </details>
                         </li>
-                        <li><a href="#">Pre-book Now</a></li>
+                        <li><a href="/prebook">Pre-book Now</a></li>
                         <li className='ml-[47rem] btn btn-ghost'><a href="#"><FaInstagram width={10} height={20} size={28}/></a></li>
                         <li><a href="#"><FaLinkedinIn width={10} height={20} size={28}/></a></li>
                 </div>

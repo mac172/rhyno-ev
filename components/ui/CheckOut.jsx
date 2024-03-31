@@ -1,6 +1,6 @@
 export default function CheckOut() {
     return (
-        <div className="">
+        <div className="pb-32">
             <div className="flex justify-center items-center">
                 <select className="select select-bordered w-full max-w-xs">
                     <option disabled value="Select Your Rhyno">Select Your Rhyno</option>

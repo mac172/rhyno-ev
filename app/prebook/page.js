@@ -1,7 +1,10 @@
+import { DirectionAwareHover } from "@/components/Hover";
+
+
 export default function PreBook() {
     return (
-        <div>
-            <h1>PreBook</h1>
+        <div className="m-auto lg:m-10  ">
+            <DirectionAwareHover />
         </div>
     );
 }

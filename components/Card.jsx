@@ -2,12 +2,22 @@
 
 import Image from "next/image";
 import React from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { CardBody, CardContainer, CardItem } from "./CardContainer";
 import Link from "next/link";
 
 export default function Card() {
+  useGSAP(() => {
+    const tl = gsap.timeline()
+    tl.from(".card-1", {opacity: 0, x: "-100%", duration: 1.1})
+    tl.from(".card-2", {opacity: 0, x: "100%", duration: 1.1, delay: 1})
+    // tl.from(".card-3", {opacity: 0, x: "-100%", duration: 1.1, delay: 1.1})
+  },[])
+
   return (
     <div className="grid grid-cols-auto gap-0 lg:grid-cols-2">
+    <div className="card-1">
     <CardContainer className="inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
@@ -52,7 +62,9 @@ export default function Card() {
         </div>
       </CardBody>
     </CardContainer>
+    </div>
 
+    <div className="card-2">
     <CardContainer className="inter-var">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
@@ -97,8 +109,9 @@ export default function Card() {
         </div>
       </CardBody>
     </CardContainer>
+    </div>
 
-    <CardContainer className="inter-var">
+    <CardContainer className="inter-var card-3">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
