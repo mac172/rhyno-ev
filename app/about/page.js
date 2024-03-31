@@ -40,9 +40,19 @@ export default function About() {
         </motion.h1>
       </LampContainer>
 
-      <div className="p-10 m-10">
-        <TextGenerateEffect words={words} />
-      </div>
+      <motion.div className="lg:p-10 lg:m-10 border rounded-3xl"
+          initial={{ opacity: 0.5, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.3,
+            duration: 0.8,
+            ease: "easeInOut",
+          }}
+      >
+        <motion.span>
+          <TextGenerateEffect words={words} />
+        </motion.span>
+      </motion.div>
     </div>
   );
 }

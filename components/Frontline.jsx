@@ -15,8 +15,8 @@ export default function Frontline() {
     useGSAP(() => {
         const tl = gsap.timeline()
         tl.from(".rhyno",{opacity: 0,scale: 0, duration: 1.3})
-        tl.from(".rhyno-sub", {opacity: 0, y: "-50%", duration: 1.1, delay: 1.2})
-        tl.from(".rhyno-left", {opacity: 0, x: "100%", duration: 1, delay: 1.1})
+        tl.from(".rhyno-sub", {opacity: 0, y: "-50%", duration: 1.1, delay: 0.5})
+        tl.from(".rhyno-left", {opacity: 0, x: "100%", duration: 1, delay: 0.5})
     },[])
     return (
         <div>
