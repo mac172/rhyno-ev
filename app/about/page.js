@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/Lamp";
 import { TextGenerateEffect } from "@/components/ui/TextGen";
-import { TracingBeamDemo } from "@/components/Beam";
 
 const words = `
 Established in 2019 by an automotive engineer with a vision for sustainable and robust
@@ -44,7 +43,6 @@ export default function About() {
       <div className="p-10 m-10">
         <TextGenerateEffect words={words} />
       </div>
-      <TracingBeamDemo />
     </div>
   );
 }
