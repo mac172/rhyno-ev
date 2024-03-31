@@ -14,8 +14,8 @@ export default function Footer() {
                     <li><a href="#">Career</a></li>
                     <li><a href="/rentals">Rentals</a></li>
                     <ul className="flex">
-                        <li className="p-6 "><a href="#"><FaInstagram size={28}/></a></li>
-                        <li className="p-6"><a href="#"><FaLinkedinIn size={28}/></a></li>
+                        <li className="p-6 "><a href="/https://www.instagram.com/rhyno.in?igsh=NTc4MTIwNjQ2YQ=="><FaInstagram size={28}/></a></li>
+                        <li className="p-6"><a href="/https://www.linkedin.com/company/rhyno-wheels/"><FaLinkedinIn size={28}/></a></li>
                     </ul>
                 </ul>
             </nav>

@@ -31,8 +31,8 @@ export default function Nav() {
                         </li>
                         <li><a href="/prebook">Pre-book Now</a></li>
                         <ul className="flex">
-                        <li><a href="#"><FaInstagram width={10} height={20} size={30}/></a></li>
-                        <li><a href="#"><FaLinkedinIn width={10} height={20} size={30}/></a></li>
+                        <li><a href="/https://www.instagram.com/rhyno.in?igsh=NTc4MTIwNjQ2YQ=="><FaInstagram width={10} height={20} size={30}/></a></li>
+                        <li><a href="/https://www.linkedin.com/company/rhyno-wheels/"><FaLinkedinIn width={10} height={20} size={30}/></a></li>
 
                         </ul>
                     </ul>
@@ -61,8 +61,8 @@ export default function Nav() {
                             </details>
                         </li>
                         <li><a href="/prebook">Pre-book Now</a></li>
-                        <li className='ml-[47rem] btn btn-ghost'><a href="#"><FaInstagram width={10} height={20} size={28}/></a></li>
-                        <li><a href="#"><FaLinkedinIn width={10} height={20} size={28}/></a></li>
+                        <li className='ml-[47rem] btn btn-ghost'><a href="/https://www.instagram.com/rhyno.in?igsh=NTc4MTIwNjQ2YQ=="><FaInstagram width={10} height={20} size={28}/></a></li>
+                        <li><a href="/https://www.linkedin.com/company/rhyno-wheels/"><FaLinkedinIn width={10} height={20} size={28}/></a></li>
                 </div>
             </div>
         </div>
